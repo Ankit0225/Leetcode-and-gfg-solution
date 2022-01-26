@@ -23,14 +23,13 @@ class Solution
         temp[n+j]=brr[j];
         sort(temp,temp+n+m);
         int low=0,high=m+n-1;
-        int mid=(low+high)/2;
         if((n+m)%2!=0){
             int mid = (low+high)/2;
             return temp[mid];
         }
         else{
-            int mid1 = (0 + (n+m))/2;
-            return ((temp[mid1]+temp[mid1-1])/2);
+            int mid = (low + (n+m))/2;
+            return ((temp[mid]+temp[mid-1])/2);
         }
     return 0;
     }
