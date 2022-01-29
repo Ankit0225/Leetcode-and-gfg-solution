@@ -17,9 +17,8 @@ public:
         int sum=0,count=0;
         for(int i=0;i<N;i++){
            sum+=arr[i];  
-        if(sum<=K){
-           count++;
-        }    
+        if(sum<=K)
+         count++;
         else 
         break;
         }
