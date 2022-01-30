@@ -30,11 +30,11 @@ class Solution{
                 v.push_back(arr1[i]);
                 i++;
             }
-            else if(arr1[i]>arr2[j]){
+            if(arr1[i]>arr2[j]){
                 v.push_back(arr2[j]);
                 j++;
             }
-            else {
+            if(arr1[i]==arr2[j]) {
                 v.push_back(arr1[i]);
                 i++;
                 j++;
