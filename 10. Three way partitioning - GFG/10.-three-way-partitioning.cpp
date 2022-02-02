@@ -14,8 +14,8 @@ public:
     //that array is divided into three parts.
     void threeWayPartition(vector<int>& array,int a, int b)
     {
-        int n=array.size();
         // code here 
+        int n=array.size();
         int low=0,mid=0,high=n-1;
         while(mid<=high){
             if(array[mid]<a){
@@ -23,7 +23,7 @@ public:
                 low++;
                 mid++;
             }
-            else if(array[mid]>=a &&  array[mid]<=b)
+            else if(array[mid]>=a && array[mid]<=b)
             mid++;
             else{
                 swap(array[mid],array[high]);
