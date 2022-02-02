@@ -19,7 +19,7 @@ public:
         int low=0,mid=0,high=n-1;
         while(mid<=high){
             if(array[mid]<a){
-                swap(array[mid],array[low]);
+                swap(array[low],array[mid]);
                 low++;
                 mid++;
             }
