@@ -11,24 +11,19 @@ class Solution{
     // A[]: input array
     // N: input array
     //Function to sort the binary array.
-    void binSort(int arr[], int N)
+    void binSort(int A[], int N)
     {
        //Your code here
        
        /**************
         * No need to print the array
         * ************/
-        int i=-1,j=N;
-        while(true){
-            do{
+        int i=-1;
+        for(int j=0;j<N;j++){
+            if(A[j]==0){
                 i++;
-            }while(arr[i]==0);
-            do{
-                j--;
-            }while(arr[j]==1);
-            if(i>=j)
-            return;
-            swap(arr[i],arr[j]);
+                swap(A[i],A[j]);
+            }
         }
     }
 };
