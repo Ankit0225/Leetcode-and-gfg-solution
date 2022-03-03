@@ -6,7 +6,7 @@ public:
             arr[i]=start+2*i;
         int sum=0;
         for(int i=0;i<n;i++)
-            sum=sum^arr[i];
+            sum^=arr[i];
         return sum;
     }
 };
