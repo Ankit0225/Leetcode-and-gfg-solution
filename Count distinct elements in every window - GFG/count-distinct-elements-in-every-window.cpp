@@ -12,7 +12,7 @@ class Solution{
     {
         //code here.
         vector<int> v;
-        map<int,int> mp;
+        unordered_map<int,int> mp;
         for(int i=0;i<k;i++)
         mp[arr[i]]++;
         v.push_back(mp.size());
