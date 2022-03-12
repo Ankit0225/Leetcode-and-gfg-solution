@@ -14,11 +14,13 @@ public:
 		of occurrences of x, otherwise returns 0. */
 	int count(int arr[], int n, int x) {
 	    // code here
-	    int count=0;
+	    unordered_map<int,int> mp;
 	    for(int i=0;i<n;i++)
-	    if(arr[i]==x)
-	    count++;
-	    return count;
+	    mp[arr[i]]++;
+	    for(auto i : mp)
+	    if(i.first==x)
+	    return i.second;
+	    return 0;
 	}
 };
 
