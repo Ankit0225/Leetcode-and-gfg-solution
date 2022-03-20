@@ -17,7 +17,7 @@ class Solution
     	// Your code here
     	int m=pat.length();
     	int n=txt.length();
-    	for(int i=0;i<=n-m;i++)
+    	for(int i=0;i<=n-m;)
     	{
     	    int j;
     	    for(j=0;j<m;j++)
@@ -25,6 +25,10 @@ class Solution
     	    break;
     	    if(j==m)
     	    return true;
+    	    if(j==0)
+    	    i++;
+    	    else
+    	    i=i+j;
     	}
     	return false;
     } 
