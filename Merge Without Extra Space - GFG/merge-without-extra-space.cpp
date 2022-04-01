@@ -15,7 +15,7 @@ public:
 	        if(arr1[i]<=arr2[j]){
 	        ans[k++]=arr1[i++];
 	        }
-	        if(arr1[i]>arr2[j])
+	        else
 	        ans[k++]=arr2[j++];
 	        
 	    }
