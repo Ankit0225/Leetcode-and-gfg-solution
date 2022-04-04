@@ -76,9 +76,8 @@ class Solution
     int count=0;
     while(head!=NULL)
     {
-        if(head->data==search_for){
-            count++;
-        }
+        if(head->data==search_for)
+        count++;
         head=head->next;
     }
     return count;
