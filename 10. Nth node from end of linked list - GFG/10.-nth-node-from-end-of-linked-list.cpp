@@ -63,23 +63,22 @@ int main()
 int getNthFromLast(Node *head, int n)
 {
        // Your code here
-       int len=1;
-       Node *curr=head;
-       while(curr->next!= NULL)
+       if(head==NULL)
+       return -1;
+       Node *first=head,*second=head;
+       for(int i=0;i<n;i++)
        {
-           len++;
-           curr=curr->next;
+           if(first==NULL)
+             return -1;
+       first=first->next;
            
        }
-       while(len!=n && head->next!=NULL)
+       while(first!=NULL)
        {
-           len--;
-           head=head->next;
+           second=second->next;
+           first=first->next;
        }
-       if(len==n)
-       return head->data;
-       else
-       return -1;
+       return second->data;
        
 }
 
