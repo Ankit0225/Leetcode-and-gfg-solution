@@ -21,7 +21,7 @@ public:
 class Solution{
 public:
     ListNode *moveToFront(ListNode *head){
-        if(head->next==NULL)
+        if(head==NULL || head->next==NULL)
         return head;
        ListNode *curr=head,*curr_prev=NULL;
        while(curr->next!=NULL)
