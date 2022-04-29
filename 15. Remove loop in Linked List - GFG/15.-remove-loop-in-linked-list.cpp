@@ -101,7 +101,7 @@ class Solution
         }
         fast->next=NULL;
         }
-        else if(fast==head) 
+         if(fast==head) 
         {
             while(fast->next!=slow)
             {
