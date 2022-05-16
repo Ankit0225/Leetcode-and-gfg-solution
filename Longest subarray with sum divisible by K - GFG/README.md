@@ -28,7 +28,7 @@ sum -3, which is divisible by 3.</span></pre>
 The input is already taken care of by the driver code. You only need to complete the function <strong>longSubarrWthSumDivByK()</strong> that takes an array <strong>(arr)</strong>, sizeOfArray <strong>(n)</strong>, positive integer <strong>K</strong>, and return the length of the longest subarray which has sum divisible by <strong>K</strong>. The driver code takes care of the printing.<br>
 <br>
 <strong>Expected Time Complexity:</strong>&nbsp;O(N).<br>
-<strong>Expected Auxiliary Space:&nbsp;</strong>O(N).â€‹</span></p>
+<strong>Expected Auxiliary Space:&nbsp;</strong>O(N).</span></p>
 
 <p><span style="font-size:18px"><strong>Constraints:</strong><br>
 1&lt;=N,K&lt;=10<sup>6</sup><br>
