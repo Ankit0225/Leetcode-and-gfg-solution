@@ -1,5 +1,5 @@
 # Two Repeated Elements
-## Easy 
+##  Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">You are given an array of <strong>N+2</strong> integer elements. All elements of the array are in range 1 to N. Also,&nbsp;all elements occur once except two numbers which occur twice. Find the two repeating numbers.</span></p>
 
