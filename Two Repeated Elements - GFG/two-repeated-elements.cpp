@@ -13,14 +13,15 @@ class Solution {
     //Function to find two repeated elements.
     vector<int> twoRepeated (int arr[], int N) {
         // Your code here
-        int hash[N+1]={0};
-        vector<int> v;
-        for(int i=0;i<N+2;i++){
-        if(hash[arr[i]]!=0)
-        v.push_back(arr[i]);
-        hash[arr[i]]++;
+        unordered_set<int>s;
+        vector<int>v;
+        for(int i=0;i<N+2;i++)
+        {
+          if(s.empty()==false && s.find(arr[i])!=s.end())
+            v.push_back(arr[i]);
+          s.insert(arr[i]);
         }
-        return v;
+    return v;
     }
 };
 
