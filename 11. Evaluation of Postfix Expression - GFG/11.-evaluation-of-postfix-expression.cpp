@@ -19,7 +19,7 @@ class Solution
         {
             if(S[i]>='0' && S[i]<='9')
             s.push(S[i]-'0');
-            else 
+            else if(S[i]=='+' || S[i]=='-' || S[i]=='*' || S[i]=='/')
             {
                 int s1=s.top();
                 s.pop();
