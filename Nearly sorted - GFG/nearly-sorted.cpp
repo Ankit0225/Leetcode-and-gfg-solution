@@ -11,9 +11,24 @@ class Solution
     vector <int> nearlySorted(int arr[], int num, int K){
         // Your code here
         vector<int> v;
-        sort(arr,arr+num);
+        priority_queue<int,vector<int>,greater<int>> minH;
         for(int i=0;i<num;i++)
-        v.push_back(arr[i]);
+        {
+            minH.push(arr[i]);
+            if(minH.size()>K)
+            {
+                while(minH.size()!=K)
+                {
+                    v.push_back(minH.top());
+                    minH.pop();
+                }
+            }
+        }
+        while(minH.size()>0)
+        {
+            v.push_back(minH.top());
+            minH.pop();
+        }
         return v;
     }
 };
