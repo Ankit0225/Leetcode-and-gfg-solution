@@ -32,12 +32,17 @@ int main()
 int kthSmallest(int mat[MAX][MAX], int n, int k)
 {
   //Your code here
-  vector<int> v;
+  priority_queue<int> maxH;
   for(int i=0;i<n;i++)
-  for(int j=0;j<n;j++)
-  v.push_back(mat[i][j]);
-  sort(v.begin(),v.end());
-  for(int i=0;i<v.size();i++)
-  return v[k-1];
-  
+  {
+      for(int j=0;j<n;j++)
+      {
+          maxH.push(mat[i][j]);
+          if(maxH.size()>k)
+          {
+              maxH.pop();
+          }
+      }
+  }
+  return maxH.top();
 }
