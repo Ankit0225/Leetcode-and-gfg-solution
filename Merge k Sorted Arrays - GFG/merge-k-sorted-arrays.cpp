@@ -22,12 +22,21 @@ class Solution
     vector<int> mergeKArrays(vector<vector<int>> arr, int K)
     {
         //code here
-        vector<int> temp;
-        for(int i=0;i<K;i++)
-        for(int j=0;j<K;j++)
-        temp.push_back(arr[i][j]);
-        sort(temp.begin(),temp.end());
-        return temp;
+        vector<int> v;
+        priority_queue<int,vector<int>,greater<int>> MinH;
+        for(int i=0;i<arr.size();i++)
+        {
+            for(int j=0;j<arr.size();j++)
+            {
+                MinH.push(arr[i][j]);
+            }
+        }
+        while(MinH.size()>0)
+        {
+            v.push_back(MinH.top());
+            MinH.pop();
+        }
+        return v;
     }
 };
 
@@ -40,7 +49,7 @@ int main()
 	while(t--){
 	    int k;
 	    cin>>k;
-	    vector<vector<int>> arr(N, vector<int> (N, 0));
+	    vector<vector<int>> arr(k, vector<int> (k, 0));
 	    for(int i=0; i<k; i++){
 	        for(int j=0; j<k; j++)
 	        {
