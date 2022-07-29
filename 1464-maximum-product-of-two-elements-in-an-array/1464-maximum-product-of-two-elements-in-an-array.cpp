@@ -1,16 +1,14 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
+        int n=nums.size();
         priority_queue<int> maxH;
-        int n=nums.size(),sum;
         for(int i=0;i<n;i++)
-        {
-            for(int j=i+1;j<n;j++)
-            {
-                sum=(nums[i]-1)*(nums[j]-1);
-                maxH.push(sum);
-            }
-        }
-        return maxH.top();
+            maxH.push(nums[i]);
+        
+        int get1=maxH.top();
+        maxH.pop();
+        int get2=maxH.top();
+        return (get1-1)*(get2-1);
     }
 };
