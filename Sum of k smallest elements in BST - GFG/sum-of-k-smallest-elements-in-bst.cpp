@@ -154,7 +154,7 @@ int sum(Node* root, int k)
     }
     while(maxH.size()>0)
     {
-        ans=ans+maxH.top();
+        ans+=maxH.top();
         maxH.pop();
     }
     return ans;
