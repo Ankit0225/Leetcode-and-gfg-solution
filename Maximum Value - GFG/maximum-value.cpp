@@ -27,25 +27,25 @@ class Solution {
   public:
     vector<int> maximumValue(Node* node) {
         //code here
-        vector<int> v;
+        vector<int> ans;
         queue<Node*> q;
         q.push(node);
         while(!q.empty())
         {
-            int count=q.size(),ans=INT_MIN;
+            int count=q.size(),res=INT_MIN;
             for(int i=0;i<count;i++)
             {
                 Node *curr=q.front();
                 q.pop();
+                res=max(res,curr->data);
                 if(curr->left!=NULL)
                 q.push(curr->left);
                 if(curr->right!=NULL)
                 q.push(curr->right);
-                ans=max(ans,curr->data);
             }
-            v.push_back(ans);
+            ans.push_back(res);
         }
-        return v;
+        return ans;
     }
 };
 
