@@ -1,8 +1,8 @@
 # Convert an array to reduced form
 ## Medium
-<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array with <strong>N</strong>&nbsp;distinct elements, convert the given array to a reduced form where all elements are in range from <strong>0</strong> to <strong>N-1</strong>. The order of elements is same, i.e., <strong>0</strong> is placed in place of smallest element, <strong>1</strong> is placed for second smallest element, <strong>N-1</strong> is placed for largest element.</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array with <strong>N</strong>&nbsp;distinct elements, convert the given array to a reduced form where all elements are in range from <strong>0</strong> to <strong>N-1</strong>. The order of elements is same, i.e., <strong>0</strong> is placed in place of smallest element, <strong>1</strong> is placed for second smallest element, and&nbsp;<strong>N-1</strong> is placed for the largest element.</span></p>
 
-<p><strong><span style="font-size:18px">Note:&nbsp;</span></strong><span style="font-size:18px">You don't have to return anything. You just have to change the the given array.</span></p>
+<p><strong><span style="font-size:18px">Note:&nbsp;</span></strong><span style="font-size:18px">You don't have to return anything. You just have to change the given array.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
@@ -31,7 +31,7 @@ replaced by 2. And so on.
 </span></pre>
 
 <p><span style="font-size:18px"><strong>Your Task:</strong><br>
-You don't need to read input or print anything. Your task is to complete the function&nbsp;<strong>convert()</strong>&nbsp;which takes the&nbsp;array of&nbsp;integers&nbsp;<strong>arr&nbsp;</strong>and&nbsp;<strong>n&nbsp;</strong>as parameters and make changes in the given array.</span></p>
+You don't need to read input or print anything. Your task is to complete the function&nbsp;<strong>convert()</strong>&nbsp;which takes the&nbsp;array of&nbsp;integers&nbsp;<strong>arr&nbsp;</strong>and&nbsp;<strong>n&nbsp;</strong>as parameters and makes changes in the given array.</span></p>
 
 <p><span style="font-size:18px"><strong>Expected Time Complexity:</strong>&nbsp;O(N*logN)<br>
 <strong>Expected Auxiliary Space:</strong>&nbsp;O(N)</span></p>
