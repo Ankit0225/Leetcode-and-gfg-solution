@@ -97,29 +97,29 @@ class Solution{
     /*You are required to complete below method */
     int maxLevelSum(Node* root) {
         // Your code here
-        int res=INT_MIN;
+        int ans=INT_MIN;
         queue<Node*> q;
         q.push(root);
         while(!q.empty())
         {
-            int count = q.size(),sum=0;
+            int count=q.size(),sum=0;
             for(int i=0;i<count;i++)
             {
-                Node *curr = q.front();
+                Node *curr=q.front();
                 q.pop();
                 sum+=curr->data;
-                if(curr->left!=NULL)
+                if(curr->left!=nullptr)
                 {
                     q.push(curr->left);
                 }
-                if(curr->right!=NULL)
+                if(curr->right!=nullptr)
                 {
                     q.push(curr->right);
                 }
             }
-            res=max(res,sum);
+            ans=max(ans,sum);
         }
-        return res;
+        return ans;
     }
 };
 
