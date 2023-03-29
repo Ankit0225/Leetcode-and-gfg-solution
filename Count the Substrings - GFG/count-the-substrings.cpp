@@ -11,17 +11,17 @@ class Solution
     int countSubstring(string S)
     {
         // code here
-        int count=0,N=S.length();
-        for(int i=0;i<N;i++)
+        int count=0;
+        for(int i=0;i<S.length();i++)
         {
-            int lowercount=0,uppercount=0;
-            for(int j=i;j<N;j++)
-            {    
+            int lcnt=0,upcnt=0;
+            for(int j=i;j<S.length();j++)
+            {
                 if(islower(S[j]))
-                lowercount++;
-                else
-                uppercount++;
-                if(lowercount==uppercount)
+                lcnt++;
+                if(isupper(S[j]))
+                upcnt++;
+                if(lcnt==upcnt)
                 count++;
             }
         }
