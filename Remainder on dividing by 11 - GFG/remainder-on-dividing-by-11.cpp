@@ -19,7 +19,7 @@ public:
        int res=0;
        for(int i=0;i<x.length();i++)
        {
-           res=(res*10+(int)x[i]-'0')%11;
+           res=(res*10+ x[i]-'0')%11;
        }
        return res;
     
