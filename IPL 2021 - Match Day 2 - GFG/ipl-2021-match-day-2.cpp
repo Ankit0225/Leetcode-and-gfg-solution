@@ -8,34 +8,40 @@ class Solution {
   public:
     vector<int> max_of_subarrays(vector<int> arr, int n, int k) {
         // your code here
-        vector<int> ans;
-        deque<int> dq;
+        vector<int> v;
+        deque<int> deq;
         if(k>n)
         {
-            for(int i=0;i<n;i++)
-            ans.push_back(arr[i]);
-            return ans;
+            for(int i : arr)
+            {
+                v.push_back(i);
+            }
+            return v;
         }
         int i=0,j=0;
         while(j<n)
-        {   
-            while(dq.size()>0 && dq.back()<arr[j])
-            dq.pop_back();
-            dq.push_back(arr[j]);
+        {
+            while(deq.size()>0 && deq.back()<arr[j])
+            {
+                deq.pop_back();
+            }
+            deq.push_back(arr[j]);
             if(j-i+1<k)
+            {
                 j++;
+            }
             else if(j-i+1==k)
             {
-                ans.push_back(dq.front());
-                if(dq.front()==arr[i])
+                v.push_back(deq.front());
+                if(deq.front()==arr[i])
                 {
-                    dq.pop_front();
+                    deq.pop_front();
                 }
                 i++;
                 j++;
             }
         }
-        return ans;
+        return v;
     }
 };
 
