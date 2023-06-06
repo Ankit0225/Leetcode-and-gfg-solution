@@ -11,14 +11,10 @@ class Solution{
     public:
     int findSingle(int N, int arr[]){
         // code here
-        unordered_map<int,int> mp;
+        int xr=0;
         for(int i=0;i<N;i++)
-        {
-            mp[arr[i]]++;
-        }
-        for(auto i : mp)
-        if(i.second==1)
-        return i.first;
+        xr^=arr[i];
+        return xr;
     }
 };
 
