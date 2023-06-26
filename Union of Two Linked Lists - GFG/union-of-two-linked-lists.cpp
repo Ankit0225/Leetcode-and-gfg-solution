@@ -14,6 +14,63 @@ struct Node
 	
 };
 
+
+// } Driver Code Ends
+/*
+// structure of the node is as follows
+
+struct Node
+{
+	int data;
+	struct Node* next;
+	
+	Node(int x){
+	    data = x;
+	    next = NULL;
+	}
+	
+};
+
+*/
+class Solution
+{
+    public:
+    struct Node* makeUnion(struct Node* head1, struct Node* head2)
+    {
+        // code here
+        set<int> s;
+        Node *curr=head1;
+        while(curr!=NULL)
+        {
+            s.insert(curr->data);
+            curr=curr->next;
+        }
+        curr=head2;
+        while(curr!=NULL)
+        {
+            s.insert(curr->data);
+            curr=curr->next;
+        }
+        Node *head=NULL,*tail=NULL;
+        for(auto i : s)
+        {
+            if(head==NULL)
+            {
+                head=tail=new Node(i);
+            }
+            else
+            {
+                tail->next=new Node(i);
+                tail=tail->next;
+            }
+        }
+        return head;
+    }
+};
+
+
+//{ Driver Code Starts.
+
 struct Node* buildList(int size)
 {
     int val;
@@ -42,7 +99,6 @@ void printList(Node* n)
     cout<< endl;
 }
 
-struct Node* makeUnion(struct Node* head1, struct Node* head2);
 
 int main()
 {
@@ -57,62 +113,11 @@ int main()
         
         cin>>m;
         Node* second = buildList(m);
-        
-        printList(makeUnion(first,second));
+        Solution obj;
+        Node* head = obj.makeUnion(first,second);
+        printList(head);
     }
     return 0;
 }
 
 // } Driver Code Ends
-
-
-/*
-// structure of the node is as follows
-
-struct node
-{
-	int data;
-	struct node* next;
-	
-	node(int x){
-	    data = x;
-	    next = NULL;
-	}
-	
-};
-
-*/
-
-struct Node* makeUnion(struct Node* head1, struct Node* head2)
-{
-    // code here
-    struct Node* curr1=head1,*curr2=head2;
-    set<int> s;
-    while(curr1!=NULL)
-    {
-        s.insert(curr1->data);
-        curr1=curr1->next;
-        
-    }
-    while(curr2!=NULL)
-    {
-        s.insert(curr2->data);
-        curr2=curr2->next;
-    }
-   struct Node *curr=NULL,*head=NULL;
-    for(auto i : s)
-    {
-        if(head==NULL)
-        {
-            Node *curr3=new Node(i);
-            head=curr=curr3;
-        }
-        else
-        {
-            Node *curr3=new Node(i);
-            curr->next=curr3;
-            curr=curr->next;
-        }
-    }
-    return head;
-}
