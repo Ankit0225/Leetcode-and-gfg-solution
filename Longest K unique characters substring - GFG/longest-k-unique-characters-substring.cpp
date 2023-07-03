@@ -12,7 +12,7 @@ class Solution{
     int longestKSubstr(string s, int k) {
     // your code here
     unordered_map<char,int> mp;
-    int i=0,j=0,mx=-1;
+    int i=0,j=0,res=-1;
     while(j<s.length())
     {
         mp[s[j]]++;
@@ -22,7 +22,7 @@ class Solution{
         }
         else if(mp.size()==k)
         {
-            mx=max(mx,j-i+1);
+            res=max(res,j-i+1);
             j++;
         }
         else if(mp.size()>k)
@@ -34,10 +34,12 @@ class Solution{
                 mp.erase(s[i]);
                 i++;
             }
+            if(mp.size()==k)
+            res=max(res,j-i+1);
             j++;
         }
     }
-    return mx;
+    return res==-1 ? -1 : res;
     }
 };
 
