@@ -8,20 +8,6 @@ using namespace std;
 // User function Template for C++
 class Solution {
   public:
-     void DFS(int node,vector<pair<int,int>> adj[],vector<bool> &vis,stack<int> &st)
-     {
-         vis[node] = true;
-         
-         for(auto it : adj[node])
-         {
-             int v = it.first;
-             if(vis[v] == false)
-             {
-                 DFS(v,adj,vis,st);
-             }
-         }
-         st.push(node);
-     }
      vector<int> shortestPath(int N,int M, vector<vector<int>>& edges){
         // code here
         vector<pair<int,int>> adj[N];
@@ -34,39 +20,56 @@ class Solution {
             adj[u].push_back({v,wt});
         }
         
-        vector<bool> vis(N,false);
-        stack<int> st;
+        vector<int> indegree(N,0);
+        
         
         for(int i=0;i<N;i++)
         {
-            if(vis[i] == false)
+            for(auto it : adj[i])
             {
-                DFS(i,adj,vis,st);
+                int v = it.first;
+                indegree[v]++;
             }
         }
         
-        vector<int> dist(N,1e9);
-        dist[0] = 0;
-        while(!st.empty())
+        queue<int> q;
+        for(int i=0;i<N;i++)
         {
-            int node = st.top();
-            st.pop();
+            if(indegree[i]==0)
+            {
+                q.push(i);
+            }
+        }
+        
+        vector<bool> visited(N,false);
+        vector<int> dist(N,1e9);
+        
+        dist[0] = 0;
+        visited[0] = true;
+        
+        while(!q.empty())
+        {
+            int node  = q.front();
+            q.pop();
             
             for(auto it : adj[node])
             {
                 int v = it.first;
                 int wt = it.second;
+                visited[v] = true;
                 if(dist[node] + wt < dist[v])
                 {
                     dist[v] = dist[node] + wt;
                 }
+                indegree[v]--;
+                if(indegree[v]==0)
+                q.push(v);
             }
         }
+        
         for(int i=0;i<N;i++)
-        {
-            if(dist[i]==1e9)
-            dist[i]=-1;
-        }
+        if(dist[i] == 1e9)
+        dist[i] = -1;
         return dist;
     }
 };
