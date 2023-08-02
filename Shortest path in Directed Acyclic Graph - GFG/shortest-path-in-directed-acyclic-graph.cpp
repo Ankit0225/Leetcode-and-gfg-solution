@@ -11,6 +11,7 @@ class Solution {
      vector<int> shortestPath(int N,int M, vector<vector<int>>& edges){
         // code here
         vector<pair<int,int>> adj[N];
+        vector<int> indegree(N,0);
         for(int i=0;i<M;i++)
         {
             int u = edges[i][0];
@@ -18,20 +19,8 @@ class Solution {
             int wt = edges[i][2];
             
             adj[u].push_back({v,wt});
+            indegree[v]++;
         }
-        
-        vector<int> indegree(N,0);
-        
-        
-        for(int i=0;i<N;i++)
-        {
-            for(auto it : adj[i])
-            {
-                int v = it.first;
-                indegree[v]++;
-            }
-        }
-        
         queue<int> q;
         for(int i=0;i<N;i++)
         {
