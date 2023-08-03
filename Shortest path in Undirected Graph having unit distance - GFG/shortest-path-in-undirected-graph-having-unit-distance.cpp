@@ -15,30 +15,36 @@ class Solution {
         {
             int u = edges[i][0];
             int v = edges[i][1];
+            
             adj[u].push_back(v);
             adj[v].push_back(u);
         }
-        vector<int> dist(N,INT_MAX);
-        queue<pair<int,int>> q;
+        
+        vector<int> dist(N,1e9);
+        queue<int> q;
+        
         dist[src] = 0;
-        q.push({src,dist[src]});
+        q.push(src);
+        
         while(!q.empty())
         {
-            int node = q.front().first;
-            int wt = q.front().second;
+            int node = q.front();
             q.pop();
-            for(auto it : adj[node]){
-                if(dist[node] + wt < dist[it])
+            
+            for(auto it : adj[node])
+            {
+                if(dist[node] + 1 < dist[it])
                 {
-                    dist[it] = wt + 1;
-                    q.push({it,dist[it]});
+                    dist[it] = dist[node] + 1;
+                    q.push(it);
                 }
             }
         }
         
         for(int i=0;i<N;i++)
-        if(dist[i]==INT_MAX)
+        if(dist[i] == 1e9)
         dist[i] = -1;
+        
         return dist;
     }
 };
