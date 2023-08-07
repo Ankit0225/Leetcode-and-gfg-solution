@@ -12,25 +12,28 @@ class Solution
     {
         // Code here
         vector<int> dist(V,1e9);
-        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> minH;
-        minH.push({0,S});
+        set<pair<int,int>> st;
+        st.insert({0,S});
         dist[S] = 0;
         
-        while(!minH.empty())
+        while(!st.empty())
         {
-            int node = minH.top().second;
-            int wt = minH.top().first;
-            minH.pop();
+            auto it = *(st.begin());
+            int node = it.second;
+            int wt = it.first;
+            st.erase(it);
             
             for(auto it : adj[node])
             {
                 int adjNode = it[0];
                 int edgWt = it[1];
-                
                 if(wt + edgWt < dist[adjNode])
                 {
+                    if(dist[adjNode]!= 1e9)
+                    st.erase({dist[adjNode],adjNode});
+                    
                     dist[adjNode] = wt + edgWt;
-                    minH.push({dist[adjNode],adjNode});
+                    st.insert({dist[adjNode],adjNode});
                 }
             }
         }
