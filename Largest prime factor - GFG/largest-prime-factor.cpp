@@ -7,13 +7,14 @@ class Solution{
 public: 
     long long int largestPrimeFactor(int N){
         // code here
-        long long int ans = 2;
-        while((ans*ans)<=N){
-            if(N%ans == 0){
-                N = N/ans;
-            }
-            else{
-                ans++;
+         if(N <= 1){
+            return N;
+        }
+        
+        for(int i = 2; i <= sqrt(N); i++){
+            if(N%i == 0){
+                N /= i;
+                i--;
             }
         }
         return N;
