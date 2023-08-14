@@ -21,7 +21,7 @@ class Solution
         
         // visited[0][0] = true;
         minH.push({grid[0][0],{0,0}});
-        
+        dist[0][0] = grid[0][0];
         vector<int> delrow = {-1,0,1,0};
         vector<int> delcol = {0,1,0,-1};
         
