@@ -11,7 +11,6 @@ class Solution {
      vector<int> shortestPath(int N,int M, vector<vector<int>>& edges){
         // code here
         vector<pair<int,int>> adj[N];
-        vector<int> indegree(N,0);
         for(int i=0;i<M;i++)
         {
             int u = edges[i][0];
@@ -19,46 +18,38 @@ class Solution {
             int wt = edges[i][2];
             
             adj[u].push_back({v,wt});
-            indegree[v]++;
-        }
-        queue<int> q;
-        for(int i=0;i<N;i++)
-        {
-            if(indegree[i]==0)
-            {
-                q.push(i);
-            }
         }
         
-        vector<bool> visited(N,false);
-        vector<int> dist(N,1e9);
+        vector<int> dist(N,INT_MAX);
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> minH;
         
+        minH.push({0,0});
         dist[0] = 0;
-        visited[0] = true;
         
-        while(!q.empty())
+        while(!minH.empty())
         {
-            int node  = q.front();
-            q.pop();
+            int wt = minH.top().first;
+            int node = minH.top().second;
+            minH.pop();
             
             for(auto it : adj[node])
             {
-                int v = it.first;
-                int wt = it.second;
-                visited[v] = true;
-                if(dist[node] + wt < dist[v])
+                int adjNode = it.first;
+                int edgWt = it.second;
+                
+                if(wt + edgWt < dist[adjNode])
                 {
-                    dist[v] = dist[node] + wt;
+                    dist[adjNode] = wt + edgWt;
+                    minH.push({dist[adjNode],adjNode});
                 }
-                indegree[v]--;
-                if(indegree[v]==0)
-                q.push(v);
             }
         }
         
         for(int i=0;i<N;i++)
-        if(dist[i] == 1e9)
-        dist[i] = -1;
+        {
+            if(dist[i]==INT_MAX)
+            dist[i]=-1;
+        }
         return dist;
     }
 };
