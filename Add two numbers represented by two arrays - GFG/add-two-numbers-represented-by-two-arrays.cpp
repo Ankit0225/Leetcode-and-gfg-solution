@@ -64,11 +64,11 @@ class Solution{
     if(carry>=1)
     res+=to_string(carry);
     
-    if(res[res.size()-1] == '0')
-    res.pop_back();
-    
     reverse(res.begin(),res.end());
+    if(res[0] == '0')
+    return res.substr(1,res.size());
     return res;
+    
     }
 };
 
