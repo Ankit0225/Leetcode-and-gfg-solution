@@ -36,28 +36,28 @@ would still be accepted.</span>
 n: 5
 details = 
 [["Gabe","Gabe0@m.co","Gabe3@m.co","Gabe1@m.co"],["Kevin","Kevin3@m.co","Kevin5@m.co","Kevin0@m.co"],["Ethan","Ethan5@m.co","Ethan4@m.co","Ethan0@m.co"],["Hanzo","Hanzo3@m.co","Hanzo1@m.co","Hanzo0@m.co"],["Fern","Fern5@m.co","Fern1@m.co","Fern0@m.co"]]
-<strong>Output:</strong> 
+<strong speechify-initial-font-size="17px" style="font-size: 17px;">Output:</strong> 
 [["Ethan","Ethan0@m.co","Ethan4@m.co","Ethan5@m.co"],["Gabe","Gabe0@m.co","Gabe1@m.co","Gabe3@m.co"],["Hanzo","Hanzo0@m.co","Hanzo1@m.co","Hanzo3@m.co"],["Kevin","Kevin0@m.co","Kevin3@m.co","Kevin5@m.co"],["Fern","Fern0@m.co","Fern1@m.co","Fern5@m.co"]]
-<strong>Explanation:
+<strong speechify-initial-font-size="17px" style="font-size: 17px;">Explanation:
 </strong>We don't have any common emails in any of the users.
 We just sorted the emails of each person and we
 return a list of the emails.(The details can be
 returned in any order).</span>
 </pre>
 
-<p><span style="font-size:18px"><strong>Your Task:</strong><br>
-You don't need to read or print anything. Your task is to complete the function&nbsp;<strong>mergeDetails</strong><strong>()&nbsp;</strong>which takes 2D List of string details denoting the details of the students and returns the list of strings denoting the details of student after merging.</span></p>
+<p speechify-initial-font-size="17px" style="font-size: 17px;"><span style="font-size: 17px;" speechify-initial-font-size="17px"><strong speechify-initial-font-size="17px" style="font-size: 17px;">Your Task:</strong><br speechify-initial-font-size="17px" style="font-size: 17px;">
+You don't need to read or print anything. Your task is to complete the function&nbsp;<strong speechify-initial-font-size="17px" style="font-size: 17px;">mergeDetails</strong><strong speechify-initial-font-size="17px" style="font-size: 17px;">()&nbsp;</strong>which takes 2D List of string details denoting the details of the students and returns the list of strings denoting the details of student after merging.</span></p>
 
-<p><span style="font-size:18px"><strong>Expected Time Complexity:</strong>&nbsp;O(N*M*logN) - where N is the size of details length and M is the size of number of strings for a name.<br>
-<strong>Expected Auxiliary Space:</strong>&nbsp;O(N*M) - where N is the size of details length and M is the size of number of strings for a name.</span></p>
+<p speechify-initial-font-size="17px" style="font-size: 17px;"><span style="font-size: 17px;" speechify-initial-font-size="17px"><strong speechify-initial-font-size="17px" style="font-size: 17px;">Expected Time Complexity:</strong>&nbsp;O(N*M*logN) - where N is the size of details length and M is the size of number of strings for a name.<br speechify-initial-font-size="17px" style="font-size: 17px;">
+<strong speechify-initial-font-size="17px" style="font-size: 17px;">Expected Auxiliary Space:</strong>&nbsp;O(N*M) - where N is the size of details length and M is the size of number of strings for a name.</span></p>
 
-<p><span style="font-size:18px"><strong>Constraints:</strong></span></p>
+<p speechify-initial-font-size="17px" style="font-size: 17px;"><span style="font-size: 17px;" speechify-initial-font-size="17px"><strong speechify-initial-font-size="17px" style="font-size: 17px;">Constraints:</strong></span></p>
 
 <ul>
-	<li><span style="font-size:18px">1 &lt;= details.length &lt;= 1000</span></li>
-	<li><span style="font-size:18px">2 &lt;= details[i].length &lt;= 10</span></li>
-	<li><span style="font-size:18px">1 &lt;= details[i][j].length &lt;= 30</span></li>
-	<li><span style="font-size:18px">details[i][0]&nbsp;consists of English letters.</span></li>
+	<li speechify-initial-font-size="17px" style="font-size: 17px;"><span style="font-size: 17px;" speechify-initial-font-size="17px">1 &lt;= details.length &lt;= 1000</span></li>
+	<li speechify-initial-font-size="17px" style="font-size: 17px;"><span style="font-size: 17px;" speechify-initial-font-size="17px">2 &lt;= details[i].length &lt;= 10</span></li>
+	<li speechify-initial-font-size="17px" style="font-size: 17px;"><span style="font-size: 17px;" speechify-initial-font-size="17px">1 &lt;= details[i][j].length &lt;= 30</span></li>
+	<li speechify-initial-font-size="17px" style="font-size: 17px;"><span style="font-size: 17px;" speechify-initial-font-size="17px">details[i][0]&nbsp;consists of English letters.</span></li>
 	<li><span style="font-size:18px">details[i][j] (for j &gt; 0)&nbsp;is a valid email.</span></li>
 </ul>
 
