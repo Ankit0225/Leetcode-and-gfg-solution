@@ -49,34 +49,37 @@ class Solution
     Node *compute(Node *head)
     {
         // your code goes here
-        Node *curr=head;
-        vector<int> v;
-        while(curr!=NULL)
-        {
-            v.push_back(curr->data);
-            curr=curr->next;
-        }
+        vector<int> store;
         stack<int> st;
-        for(int i=v.size()-1;i>=0;i--)
+        Node *Curr= head;
+        while(Curr!=NULL)
         {
-            if(st.size()==0)
-            st.push(v[i]);
-            else if(st.size()>0 && st.top()<=v[i])
-            st.push(v[i]);
+            store.push_back(Curr->data);
+            Curr=Curr->next;
         }
-        Node *newhead=NULL,*tail=NULL;
+        
+        for(int i=store.size()-1;i>=0;i--)
+        {
+            if(st.size() == 0)
+            st.push(store[i]);
+            else if(st.size()>0 && st.top()<=store[i])
+            st.push(store[i]);
+        }
+        Node *curr=NULL,*tail = NULL;
         while(!st.empty())
         {
-           if(newhead==NULL)
-           newhead=tail=new Node(st.top());
-           else
-           {
-               tail->next = new Node(st.top());
-               tail=tail->next;
-           }
-           st.pop();
-        }
-        return newhead;
+            if(curr==NULL)
+            {
+                curr=tail = new Node(st.top());
+            }
+            else
+            {
+                tail -> next = new Node(st.top());
+                tail = tail->next;
+            }
+            st.pop();
+        }   
+        return curr;
     }
     
 };
