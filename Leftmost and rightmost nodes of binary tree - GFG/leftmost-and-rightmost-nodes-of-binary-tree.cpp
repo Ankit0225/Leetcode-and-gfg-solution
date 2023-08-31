@@ -138,16 +138,17 @@ queue<Node*> q;
 q.push(root);
 while(!q.empty())
 {
-    int count=q.size();
-    for(int i=0;i<count;i++)
+    int cnt = q.size();
+    for(int i=1;i<=cnt;i++)
     {
-        Node *curr=q.front();
+        Node *curr = q.front();
         q.pop();
-        if(i==0 || i==count-1)
+        
+        if(i==1 || i==cnt)
         cout<<curr->data<<" ";
-        if(curr->left!=nullptr)
+        if(curr->left!=NULL)
         q.push(curr->left);
-        if(curr->right!=nullptr)
+        if(curr->right!=NULL)
         q.push(curr->right);
     }
 }
