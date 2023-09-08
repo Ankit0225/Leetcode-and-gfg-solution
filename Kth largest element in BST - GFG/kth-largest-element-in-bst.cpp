@@ -103,22 +103,20 @@ class Solution
         priority_queue<int,vector<int>,greater<int>> minH;
         queue<Node*> q;
         q.push(root);
-        while(q.empty()==false)
+        while(!q.empty())
         {
             Node *curr=q.front();
             q.pop();
             minH.push(curr->data);
+            if(minH.size()>K)
+            minH.pop();
             if(curr->left!=NULL)
             q.push(curr->left);
             if(curr->right!=NULL)
             q.push(curr->right);
         }
-       
-        while(minH.size()>K)
-        {
-        minH.pop();
-        }
-        return minH.top();
+        
+        return minH.size() < K ? -1 : minH.top();
     }
 };
 
