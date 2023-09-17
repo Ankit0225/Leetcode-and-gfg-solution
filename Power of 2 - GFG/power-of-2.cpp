@@ -14,14 +14,10 @@ class Solution{
     bool isPowerofTwo(long long n){
         
         // Your code here  
-        for(int i=0;i<n;i++)
-        {
-            if(pow(2,i) == n)
-            return true;
-            if(pow(2,i)>n)
-            return false;
-        }
+        if(n<=0)
         return false;
+        
+        return (n & (n-1)) == 0;
         
     }
 };
