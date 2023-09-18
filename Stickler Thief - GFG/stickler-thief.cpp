@@ -11,22 +11,22 @@ class Solution
     int FindMaxSum(int arr[], int n)
     {
         // Your code here
-        if(n==1)
-        return arr[0];
-        vector<int> dp(n,0);
-        dp[0] = arr[0];
+        int prev2 = 0,prev= arr[0];
+        
         for(int i=1;i<n;i++)
         {
             int pick = arr[i];
             if(i>1)
-            pick += dp[i-2];
+            pick += prev2;
             
-            int not_pick = dp[i-1];
+            int not_pick = prev;
             
-            dp[i] = max(pick,not_pick);
+            int curr = max(pick,not_pick);
+            
+            prev2 = prev;
+            prev  = curr;
         }
-        
-        return dp[n-1];
+        return prev;
     }
 };
 
