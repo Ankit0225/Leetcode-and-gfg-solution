@@ -12,19 +12,17 @@ class Solution {
   public:
     int shotestPath(vector<vector<int>> mat, int n, int m, int k) {
         // code here
-
         vector<vector<int>> dist(n,vector<int>(m,1e9));
-        dist[0][0] = 0;
-        priority_queue<pair<int,pair<int,pair<int,int>>>,
-                vector<pair<int,pair<int,pair<int,int>>>>,
-                greater<pair<int,pair<int,pair<int,int>>>>> minH;
         
+        dist[0][0] = 0;
         // {k,dist,row,col}
+        priority_queue<pair<int,pair<int,pair<int,int>>>,vector<pair<int,pair<int,pair<int,int>>>>,
+        greater<pair<int,pair<int,pair<int,int>>>>> minH;
+        
         minH.push({0,{0,{0,0}}});
         int ans = INT_MAX;
         vector<int> delrow = {-1,0,1,0};
         vector<int> delcol = {0,1,0,-1};
-        
         while(!minH.empty())
         {
             auto it = minH.top();
@@ -38,7 +36,6 @@ class Solution {
             
             if(obstacle > k)
             break;
-            
             if(row == n-1 && col == m-1)
             ans = min(ans,dis);
             
@@ -50,18 +47,23 @@ class Solution {
                 
                 if(nrow >= 0 && nrow < n && ncol >=0 && ncol < m)
                 {
-                    if(dis + 1 < dist[nrow][ncol])
+                    if(mat[nrow][ncol] == 1 && dis + 1 < dist[nrow][ncol])
+                    {
+                        dist[nrow][ncol] = dis + 1; 
+                        minH.push({counter + 1,{dis +1 ,{nrow,ncol}}});
+                    }
+                    if(mat[nrow][ncol] == 0 && dis + 1< dist[nrow][ncol])
                     {
                         dist[nrow][ncol] = dis + 1;
-                        obstacle = counter + mat[nrow][ncol];
-                        minH.push({obstacle,{dis + 1,{nrow,ncol}}});
+                        minH.push({counter,{dis +1,{nrow,ncol}}});
                     }
                 }
             }   
         }
-        return ans == INT_MAX ? -1 : ans;
+        return ans == INT_MAX ?  -1 : ans;
     }
 };
+
 
 //{ Driver Code Starts.
 
