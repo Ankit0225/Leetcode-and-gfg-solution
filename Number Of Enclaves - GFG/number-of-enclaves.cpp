@@ -12,34 +12,35 @@ class Solution {
   public:
     int numberOfEnclaves(vector<vector<int>> &grid) {
         // Code here
-        int n = grid.size(),m=grid[0].size();
-        vector<vector<bool>> vis(n,vector<bool>(m,0));
+        int n = grid.size(),m = grid[0].size();
+        vector<vector<bool>> visited(n,vector<bool>(m,false));
+        
         queue<pair<int,int>> q;
+        
         for(int i=0;i<n;i++)
         {
-            if(grid[i][0]==1 && vis[i][0]==false)
+            if(visited[i][0] == false && grid[i][0] == 1)
             {
-                vis[i][0]=true;
+                visited[i][0] = true;
                 q.push({i,0});
             }
-            if(grid[i][m-1]==1 && vis[i][m-1]==false)
+            if(visited[i][m-1] == false && grid[i][m-1] == 1)
             {
-                vis[i][m-1]=true;
+                visited[i][m-1] =true;
                 q.push({i,m-1});
             }
         }
         
         for(int j=0;j<m;j++)
         {
-            if(grid[0][j]==1 && vis[0][j]==false)
+            if(visited[0][j] == false && grid[0][j] == 1)
             {
-                vis[0][j]=true;
+                visited[0][j] = true;
                 q.push({0,j});
             }
-            
-            if(grid[n-1][j]==1 && vis[n-1][j]==false)
+            if(visited[n-1][j] == false && grid[n-1][j] == 1)
             {
-                vis[n-1][j]=true;
+                visited[n-1][j] = true;
                 q.push({n-1,j});
             }
         }
@@ -58,26 +59,27 @@ class Solution {
                 int nrow = row + delrow[i];
                 int ncol = col + delcol[i];
                 
-                if(nrow>=0 && nrow<n && ncol >=0 && ncol < m 
-                && vis[nrow][ncol]==false && grid[nrow][ncol]==1)
+                if(nrow >= 0 && nrow < n && ncol >=0 && ncol <m && 
+                visited[nrow][ncol] == false && grid[nrow][ncol] == 1)
                 {
-                    vis[nrow][ncol]=true;
+                    visited[nrow][ncol] = true;
                     q.push({nrow,ncol});
                 }
             }
         }
-        int count=0;
+        
+        int cnt = 0;
         for(int i=0;i<n;i++)
         {
             for(int j=0;j<m;j++)
             {
-                if(grid[i][j]==1 && vis[i][j]==false)
+                if(visited[i][j] == false && grid[i][j] == 1)
                 {
-                    count++;
+                    cnt++;
                 }
             }
         }
-        return count;
+        return cnt;
     }
 };
 
