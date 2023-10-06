@@ -7,23 +7,23 @@ class Solution {
   public:
     int minimizeSum(int n, vector<vector<int>>& triangle) {
         // Code here
-        vector<vector<int>> dp(n,vector<int>(n,0));
-        
-        for(int j=0;j<n;j++)
-        dp[n-1][j] = triangle[n-1][j];
-        
-        for(int i=n-2;i>=0;i--)
-        {
-            for(int j=i;j>=0;j--)
-            {
-                int down = dp[i+1][j] + triangle[i][j];
-                int diagonal = dp[i+1][j+1] + triangle[i][j];
-                
-                dp[i][j] = min(down,diagonal);
-            }
-        }
-        return dp[0][0];
-    }
+         vector<int> dp(n),curr(n);
+         for(int j=0;j<n;j++)
+         dp[j] = triangle[n-1][j];
+         
+         for(int i=n-2;i>=0;i--)
+         {
+             for(int j=i;j>=0;j--)
+             {
+                 int down = dp[j] + triangle[i][j];
+                 int diagonal = dp[j+1] + triangle[i][j];
+                 curr[j] = min(down,diagonal);
+             }
+             
+             dp = curr;
+         }
+         return dp[0];
+    }  
 };
 
 //{ Driver Code Starts.
