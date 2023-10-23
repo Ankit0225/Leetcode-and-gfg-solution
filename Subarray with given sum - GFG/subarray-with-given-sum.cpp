@@ -11,42 +11,32 @@ class Solution
     vector<int> subarraySum(vector<int>arr, int n, long long s)
     {
         // Your code here
-        vector<int> ans;
         int i=0,j=0;
         long long sum = 0;
+        
         while(j<n)
         {
             sum+=arr[j];
             if(sum<s)
             j++;
-            else if(sum==s)
+            else if(sum == s)
             {
-                ans.push_back(i+1);
-                ans.push_back(j+1);
-                break;
-                j++;
+                return {i+1,j+1};
             }
             else if(sum>s)
             {
-                while(sum>s && i < j)
+                while(sum > s && i < j)
                 {
-                    sum-=arr[i];
+                    sum -= arr[i];
                     i++;
                 }
-                if(sum==s)
-                {
-                    ans.push_back(i+1);
-                    ans.push_back(j+1);
-                    break;
-                }
+                if(sum == s)
+                return {i + 1,j+1};
                 j++;
             }
         }
         
-        if(ans.size() == 0)
         return {-1};
-        
-        return ans;
     }
 };
 
