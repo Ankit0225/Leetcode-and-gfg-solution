@@ -118,7 +118,6 @@ Node *flatten(Node *root)
    Node *curr=root;
    while(curr!=NULL)
    {
-    //   minH.push(curr->data);
        Node *down = curr;
        while(down!=NULL)
        {
@@ -128,14 +127,23 @@ Node *flatten(Node *root)
        curr=curr->next;
    }
    
-   Node *head = NULL;
+   Node *head = NULL,*tail = NULL;
    
    while(!minH.empty())
    {
-       cout<<minH.top()<<" ";
+       int val = minH.top();
+       if(head == NULL)
+       {
+         head = tail = new Node(val);  
+       }
+       else
+       {
+           tail -> bottom = new Node(val);
+           tail = tail -> bottom;
+       }
        minH.pop();
    }
-//   cout<<endl;
+
    return head;
    
 }
