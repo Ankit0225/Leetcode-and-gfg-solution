@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1511-count-number-of-teams](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1511-count-number-of-teams) |
+| [2727-number-of-senior-citizens](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2727-number-of-senior-citizens) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -15,4 +16,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1511-count-number-of-teams](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1511-count-number-of-teams) |
+## String
+|  |
+| ------- |
+| [2727-number-of-senior-citizens](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2727-number-of-senior-citizens) |
 <!---LeetCode Topics End-->
