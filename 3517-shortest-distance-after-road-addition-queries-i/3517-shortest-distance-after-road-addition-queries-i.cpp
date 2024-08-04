@@ -14,10 +14,10 @@ public:
         while (!q.empty()) {
             int node = q.front();
             q.pop();
-            for (int neighbor : adj[node]) {
-                if (dist[node] + 1 < dist[neighbor]) {
-                    dist[neighbor] = dist[node] + 1;
-                    q.push(neighbor);
+            for (int adjNode : adj[node]) {
+                if (dist[node] + 1 < dist[adjNode]) {
+                    dist[adjNode] = dist[node] + 1;
+                    q.push(adjNode);
                 }
             }
         }
@@ -34,10 +34,10 @@ public:
                 while (!q.empty()) {
                     int node = q.front();
                     q.pop();
-                    for (int neighbor : adj[node]) {
-                        if (dist[node] + 1 < dist[neighbor]) {
-                            dist[neighbor] = dist[node] + 1;
-                            q.push(neighbor);
+                    for (int adjNode : adj[node]) {
+                        if (dist[node] + 1 < dist[adjNode]) {
+                            dist[adjNode] = dist[node] + 1;
+                            q.push(adjNode);
                         }
                     }
                 }
