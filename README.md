@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0054-spiral-matrix](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0054-spiral-matrix) |
 | [1511-count-number-of-teams](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -68,4 +69,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2163-kth-distinct-string-in-an-array) |
+## Matrix
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0054-spiral-matrix) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
