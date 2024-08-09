@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2411-spiral-matrix-iv](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2411-spiral-matrix-iv) |
 | [2727-number-of-senior-citizens](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2727-number-of-senior-citizens) |
 ## Dynamic Programming
 |  |
@@ -77,10 +78,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0059-spiral-matrix-ii) |
 | [0921-spiral-matrix-iii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0921-spiral-matrix-iii) |
+| [2411-spiral-matrix-iv](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2411-spiral-matrix-iv) |
 ## Simulation
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0059-spiral-matrix-ii) |
 | [0921-spiral-matrix-iii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0921-spiral-matrix-iii) |
+| [2411-spiral-matrix-iv](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2411-spiral-matrix-iv) |
+## Linked List
+|  |
+| ------- |
+| [2411-spiral-matrix-iv](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2411-spiral-matrix-iv) |
 <!---LeetCode Topics End-->
