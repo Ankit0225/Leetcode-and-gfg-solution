@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0744-network-delay-time) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Shortest Path
 |  |
 | ------- |
@@ -90,4 +91,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2411-spiral-matrix-iv](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2411-spiral-matrix-iv) |
+## Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0789-kth-largest-element-in-a-stream) |
+## Design
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0789-kth-largest-element-in-a-stream) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0789-kth-largest-element-in-a-stream) |
+## Binary Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
