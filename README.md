@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0040-combination-sum-ii) |
 | [0054-spiral-matrix](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0059-spiral-matrix-ii) |
+| [0624-maximum-distance-in-arrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0890-lemonade-change) |
 | [0921-spiral-matrix-iii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0921-spiral-matrix-iii) |
 | [1511-count-number-of-teams](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1511-count-number-of-teams) |
@@ -120,5 +121,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0624-maximum-distance-in-arrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0890-lemonade-change) |
 <!---LeetCode Topics End-->
