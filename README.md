@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0264-ugly-number-ii) |
 | [1511-count-number-of-teams](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1511-count-number-of-teams) |
 ## Binary Indexed Tree
 |  |
@@ -47,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0264-ugly-number-ii) |
 | [0744-network-delay-time](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Shortest Path
@@ -56,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0264-ugly-number-ii) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Sorting
@@ -123,4 +126,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0624-maximum-distance-in-arrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0890-lemonade-change) |
+## Math
+|  |
+| ------- |
+| [0264-ugly-number-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0264-ugly-number-ii) |
 <!---LeetCode Topics End-->
