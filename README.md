@@ -131,5 +131,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0060-permutation-sequence](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0060-permutation-sequence) |
 | [0264-ugly-number-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0264-ugly-number-ii) |
+## Recursion
+|  |
+| ------- |
+| [0060-permutation-sequence](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0060-permutation-sequence) |
 <!---LeetCode Topics End-->
