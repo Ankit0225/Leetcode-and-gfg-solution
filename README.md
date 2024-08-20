@@ -37,14 +37,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0744-network-delay-time) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0744-network-delay-time) |
 ## Graph
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0744-network-delay-time) |
 ## Heap (Priority Queue)
 |  |
@@ -137,4 +140,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0060-permutation-sequence](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0060-permutation-sequence) |
+## Union Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
