@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0039-combination-sum](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0040-combination-sum-ii) |
 | [0054-spiral-matrix](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0059-spiral-matrix-ii) |
@@ -120,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0040-combination-sum-ii) |
 ## Greedy
 |  |
