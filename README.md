@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0624-maximum-distance-in-arrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0890-lemonade-change) |
 | [0921-spiral-matrix-iii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0921-spiral-matrix-iii) |
+| [1325-path-with-maximum-probability](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1325-path-with-maximum-probability) |
 | [1511-count-number-of-teams](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -51,16 +52,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0547-number-of-provinces](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0744-network-delay-time) |
+| [1325-path-with-maximum-probability](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1325-path-with-maximum-probability) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0264-ugly-number-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0264-ugly-number-ii) |
 | [0744-network-delay-time](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1325-path-with-maximum-probability](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1325-path-with-maximum-probability) |
 ## Shortest Path
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0744-network-delay-time) |
+| [1325-path-with-maximum-probability](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1325-path-with-maximum-probability) |
 ## Hash Table
 |  |
 | ------- |
