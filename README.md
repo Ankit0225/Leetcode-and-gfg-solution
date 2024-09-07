@@ -44,12 +44,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0744-network-delay-time) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [1484-linked-list-in-binary-tree](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2035-count-sub-islands) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0744-network-delay-time) |
+| [1484-linked-list-in-binary-tree](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2035-count-sub-islands) |
 ## Graph
 |  |
@@ -112,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [1484-linked-list-in-binary-tree](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1484-linked-list-in-binary-tree) |
 | [2411-spiral-matrix-iv](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2411-spiral-matrix-iv) |
 ## Tree
 |  |
@@ -119,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1484-linked-list-in-binary-tree](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1484-linked-list-in-binary-tree) |
 ## Design
 |  |
 | ------- |
@@ -132,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1484-linked-list-in-binary-tree](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1484-linked-list-in-binary-tree) |
 ## Data Stream
 |  |
 | ------- |
