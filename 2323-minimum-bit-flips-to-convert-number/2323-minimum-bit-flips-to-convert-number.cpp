@@ -1,11 +1,13 @@
 class Solution {
 public:
     int minBitFlips(int start, int goal) {
-        int xr = start^goal,cnt = 0;
-        while(xr)
+        int cnt = 0;
+        while(start > 0 || goal > 0)
         {
-            xr = xr & (xr - 1);
-            cnt++;
+            if((start&1) != (goal & 1))
+                cnt++;
+            start = start>>1;
+            goal = goal>>1;
         }
         return cnt;
     }
