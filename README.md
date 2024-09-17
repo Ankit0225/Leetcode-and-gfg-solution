@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0920-uncommon-words-from-two-sentences](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2727-number-of-senior-citizens) |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0264-ugly-number-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0264-ugly-number-ii) |
+| [0920-uncommon-words-from-two-sentences](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Sorting
@@ -94,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0920-uncommon-words-from-two-sentences](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Matrix
 |  |
