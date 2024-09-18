@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2411-spiral-matrix-iv](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2411-spiral-matrix-iv) |
 | [2727-number-of-senior-citizens](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2727-number-of-senior-citizens) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0920-uncommon-words-from-two-sentences](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2163-kth-distinct-string-in-an-array) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Sorting
 |  |
 | ------- |
@@ -161,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0060-permutation-sequence](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0060-permutation-sequence) |
 | [0264-ugly-number-ii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0264-ugly-number-ii) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Recursion
 |  |
 | ------- |
