@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0624-maximum-distance-in-arrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0890-lemonade-change) |
 | [0921-spiral-matrix-iii](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0921-spiral-matrix-iii) |
+| [1002-maximum-width-ramp](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1002-maximum-width-ramp) |
 | [1325-path-with-maximum-probability](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1325-path-with-maximum-probability) |
 | [1511-count-number-of-teams](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -178,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [1002-maximum-width-ramp](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1002-maximum-width-ramp) |
 ## Number Theory
 |  |
 | ------- |
@@ -186,4 +188,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/2323-minimum-bit-flips-to-convert-number) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1002-maximum-width-ramp](https://github.com/Ankit0225/Leetcode-and-gfg-solution/tree/master/1002-maximum-width-ramp) |
 <!---LeetCode Topics End-->
